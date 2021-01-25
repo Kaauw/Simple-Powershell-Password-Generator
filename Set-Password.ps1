@@ -2,7 +2,7 @@
 
 	param (
         [Parameter(Mandatory=$True,
-		HelpMessage="Lenght of the password")][Int]$Lenght
+		HelpMessage="Password lenght")][Int]$Lenght
 	)
     
     $passwordSize = $Lenght
